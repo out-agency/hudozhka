@@ -1,0 +1,21 @@
+User-Agent: *
+Disallow: /page53831341.html
+Disallow: /page53831511.html
+Disallow: /page54134465.html
+Disallow: /error
+Disallow: /tilda/form*
+Disallow: /tilda/rec*
+Disallow: /tilda/click*
+Disallow: /tilda/scroll*
+Disallow: /tilda/popup*
+Disallow: /tilda/cart*
+Disallow: /tilda/product*
+Disallow: /tilda/event*
+Disallow: /*_escaped_fragment_*
+Disallow: /members/login*
+Disallow: /members/signup*
+Disallow:
+
+
+Sitemap: http://hydogka.tilda.ws/sitemap.xml
+Host: hydogka.tilda.ws

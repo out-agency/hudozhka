@@ -1,0 +1,34 @@
+ErrorDocument 403 /page54134465.html
+ErrorDocument 404 /page54134465.html
+
+DirectoryIndex page53830259.html
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^programmy$ page54133753.html [NC]
+RewriteRule ^programmy/$ page54133753.html [NC]
+
+RewriteRule ^raspisaniye$ page54133829.html [NC]
+RewriteRule ^raspisaniye/$ page54133829.html [NC]
+
+RewriteRule ^prazdniki$ page54133875.html [NC]
+RewriteRule ^prazdniki/$ page54133875.html [NC]
+
+RewriteRule ^ceny$ page54133911.html [NC]
+RewriteRule ^ceny/$ page54133911.html [NC]
+
+RewriteRule ^contacty$ page54133981.html [NC]
+RewriteRule ^contacty/$ page54133981.html [NC]
+
+RewriteRule ^error$ page54134465.html [NC]
+RewriteRule ^error/$ page54134465.html [NC]
+
+RewriteRule ^politica$ page54370261.html [NC]
+RewriteRule ^politica/$ page54370261.html [NC]
+
+RewriteRule ^members/ ma_start.html [NC]
+
+
